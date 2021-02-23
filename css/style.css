@@ -89,7 +89,6 @@ main {
 }
 
 .container-btn .add {
-  width: 90%;
   background-color: white;
   margin: auto;
   margin-bottom: 3px;
@@ -107,13 +106,13 @@ main {
 }
 
 .container-list {
-  width: 90%;
+  width: 70%;
+  margin: auto;
   padding-left: 50px;
   background-color: white;
   padding-left: 50px;
   padding-top: 30px;
   padding-bottom: 15px;
-  margin: auto;
   border-radius: 0 0 5px 5px;
 }
 
