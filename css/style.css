@@ -9,23 +9,119 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
-.container-logo{
+header{
   width: 100%;
   height: 10%;
+  background-color: darkviolet;
+  margin-bottom: 50px;
+}
+
+main{
+  /* background-color: red; */
+  width: 100%;
+  height: 800px;
+}
+
+.logo{
+  width: 100%;
+  /* height: 10%; */
   content: '';
   display: table;
   clear: both;
   background-color: white;
 }
 
-.container-logo .text{
+.logo .text{
   display: inline-block;
   position: relative;
   bottom: 15px;
 }
 
-.container-logo .icon{
+.logo .icon{
   display: inline-block;
   margin: 10px 10px;
 }
 
+.container{
+  width: 60%;
+  margin: auto;
+  background-color: gold;
+}
+
+.add {
+  width: 90%;
+  background-color: white;
+  margin: auto;
+  border-radius: 5px 5px 0 0;
+  padding-left: 50px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  margin-bottom: 3px;
+}
+
+.add button{
+  padding: 2px;
+  border-radius: 5px;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+.blue{
+  background-color: #45ABEA;
+  border-color: #45ABEA;
+  color: white;
+}
+
+.white{
+  background-color: white;
+  border: 1px solid  lightgray;
+  color: lightgray;
+}
+
+.list {
+  width: 90%;
+  padding-left: 50px;
+  background-color: greenyellow;
+  padding-left: 50px;
+  padding-top: 30px;
+  margin: auto;
+  border-radius: 0 0 5px 5px;
+}
+
+.list p{
+  display: inline-block;
+}
+
+
+.arrow{
+  font-size: 10px;
+}
+
+/* .item{
+  margin-top: 10px;
+} */
+
+.spunta-v{
+  width: 15px;
+  color: green;
+  border: 1px solid green;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.category{
+  display: inline-block;
+  color: white;
+  padding: 2px;
+  font-size: 12px;
+  border-radius: 10px;
+}
+
+.item{
+  margin-bottom: 30px;
+}
+
+.verify{
+  margin-bottom: 10px;
+}
