@@ -3,3 +3,29 @@
   margin: 0;
   padding: 0;
 }
+
+body{
+  background-color: #F6F8F9;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container-logo{
+  width: 100%;
+  height: 10%;
+  content: '';
+  display: table;
+  clear: both;
+  background-color: white;
+}
+
+.container-logo .text{
+  display: inline-block;
+  position: relative;
+  bottom: 15px;
+}
+
+.container-logo .icon{
+  display: inline-block;
+  margin: 10px 10px;
+}
+
