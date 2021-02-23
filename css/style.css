@@ -1,94 +1,94 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-body{
-  background-color: #F6F8F9;
-  font-family: 'Roboto', sans-serif;
+body {
+  background-color: #f6f8f9;
+  font-family: "Roboto", sans-serif;
 }
 
-header{
+header {
   width: 100%;
   height: 10%;
   background-color: darkviolet;
   margin-bottom: 50px;
 }
 
-main{
+main {
   width: 100%;
   margin-bottom: 10px;
 }
 
-.white{
+.white {
   background-color: white;
-  border: 1px solid  lightgray;
+  border: 1px solid lightgray;
   color: lightgray;
 }
 
-.blue, .editorial{
-  background-color: #45ABEA;
-  border-color: #45ABEA;
+.blue,
+.editorial {
+  background-color: #45abea;
+  border-color: #45abea;
   color: white;
 }
 
-.goals{
-  background-color: #9C72E4;
-  border-color: #9C72E4;
+.goals {
+  background-color: #9c72e4;
+  border-color: #9c72e4;
   color: white;
 }
 
-.recruiting{
-  background-color: #64C0A8;
-  border-color: #64C0A8;
+.recruiting {
+  background-color: #64c0a8;
+  border-color: #64c0a8;
   color: white;
 }
 
-.mobile{
-  background-color: #F29E33;
-  border-color: #F29E33;
+.mobile {
+  background-color: #f29e33;
+  border-color: #f29e33;
   color: white;
 }
 
-.website{
-  background-color: #D863A1;
-  border-color: #D863A1;
+.website {
+  background-color: #d863a1;
+  border-color: #d863a1;
   color: white;
 }
 
-.sales{
-  background-color: #B0C925;
-  border-color: #B0C925;
+.sales {
+  background-color: #b0c925;
+  border-color: #b0c925;
   color: white;
 }
 
-.logo{
+.logo {
   width: 100%;
-  /* height: 10%; */
-  content: '';
+  content: "";
   display: table;
   clear: both;
   background-color: white;
 }
 
-.logo .text{
+.logo .icon {
+  display: inline-block;
+  margin: 10px 10px;
+}
+
+.logo .text {
   display: inline-block;
   position: relative;
   bottom: 15px;
 }
 
-.logo .icon{
-  display: inline-block;
-  margin: 10px 10px;
-}
-
-.container{
-  width: 60%;
+.container-btn {
+  width: 70%;
   margin: auto;
 }
 
-.add {
+.container-btn .add {
   width: 90%;
   background-color: white;
   margin: auto;
@@ -97,17 +97,16 @@ main{
   padding-left: 50px;
   padding-top: 30px;
   padding-bottom: 10px;
- 
 }
 
-.add button{
+.container-btn .add button {
   padding: 8px;
   border-radius: 5px;
   border: 1px solid;
   cursor: pointer;
 }
 
-.list {
+.container-list {
   width: 90%;
   padding-left: 50px;
   background-color: white;
@@ -118,16 +117,23 @@ main{
   border-radius: 0 0 5px 5px;
 }
 
-.list p{
-  display: inline-block;
+.container-list .item {
+  margin-bottom: 30px;
 }
 
+.container-list .verify {
+  margin-bottom: 10px;
+}
 
-.arrow{
+.container-list .item .arrow {
   font-size: 10px;
 }
 
-.spunta-v{
+.container-list p {
+  display: inline-block;
+}
+
+.container-list .item .verify .spunta-v {
   width: 15px;
   color: green;
   border: 1px solid green;
@@ -136,7 +142,7 @@ main{
   margin-top: 10px;
 }
 
-.spunta-x{
+.container-list .item .verify .spunta-x {
   width: 15px;
   color: red;
   border: 1px solid red;
@@ -145,18 +151,10 @@ main{
   margin-top: 10px;
 }
 
-.category{
+.container-list .item .verify .category {
   display: inline-block;
   color: white;
   padding: 5px;
   font-size: 12px;
   border-radius: 10px;
-}
-
-.item{
-  margin-bottom: 30px;
-}
-
-.verify{
-  margin-bottom: 10px;
 }
