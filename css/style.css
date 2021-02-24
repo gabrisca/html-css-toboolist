@@ -83,37 +83,29 @@ main {
   bottom: 15px;
 }
 
-.container-btn {
+.container-btn, .container-list{
   width: 70%;
   margin: auto;
-}
-
-.container-btn .add {
   background-color: white;
-  margin: auto;
-  margin-bottom: 3px;
-  border-radius: 5px 5px 0 0;
   padding-left: 50px;
   padding-top: 30px;
   padding-bottom: 10px;
+  margin-bottom: 3px;
 }
 
-.container-btn .add button {
+.container-btn {
+  border-radius: 5px 5px 0 0;
+}
+
+.container-list {
+  border-radius: 0 0 5px 5px;
+}
+
+.container-btn button {
   padding: 8px;
   border-radius: 5px;
   border: 1px solid;
   cursor: pointer;
-}
-
-.container-list {
-  width: 70%;
-  margin: auto;
-  padding-left: 50px;
-  background-color: white;
-  padding-left: 50px;
-  padding-top: 30px;
-  padding-bottom: 15px;
-  border-radius: 0 0 5px 5px;
 }
 
 .container-list .item {
@@ -132,22 +124,21 @@ main {
   display: inline-block;
 }
 
-.container-list .item .verify .spunta-v {
+.container-list .item .verify .spunta-v, .container-list .item .verify .spunta-x{
   width: 15px;
-  color: green;
-  border: 1px solid green;
   border-radius: 50%;
   display: inline-block;
   margin-top: 10px;
 }
 
+.container-list .item .verify .spunta-v {
+  color: green;
+  border: 1px solid green;
+}
+
 .container-list .item .verify .spunta-x {
-  width: 15px;
   color: red;
   border: 1px solid red;
-  border-radius: 50%;
-  display: inline-block;
-  margin-top: 10px;
 }
 
 .container-list .item .verify .category {
